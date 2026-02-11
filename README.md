@@ -14,7 +14,7 @@ In hardened environments where outbound network traffic (egress) is restricted, 
 ## Installation & Build
 
 1. Ensure you have Maven and JDK 11+ installed.
-2. Build the "fat" JAR: ```bash
+2. Build the "fat" JAR: ```
    mvn clean package```
 
 3. The resulting artifact will be located in `target/flink-rce-1.0.jar`.
